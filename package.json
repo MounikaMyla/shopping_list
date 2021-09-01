@@ -1,0 +1,28 @@
+{
+  "name": "shopping_app",
+  "version": "1.0.0",
+  "description": "building shopping app using mongodb, express, react and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "dev": "concurrently \"yarn run start-watch\" \"cd client && yarn start\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongod": "^2.0.0",
+    "mongodb": "^4.1.1",
+    "mongoose": "^5.13.8",
+    "routes": "^2.1.0",
+    "routes-js": "^0.1.8"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4"
+  }
+}
